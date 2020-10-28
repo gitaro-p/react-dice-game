@@ -1,19 +1,19 @@
 body {
   background: #ddd;
 }
-.DiceRoll {
+.RollDice {
   display: flex;
   flex-flow: column nowrap;
   min-height: 100vh;
 }
 
-.DiceRoll-container {
+.RollDice-container {
   direction: flex;
   justify-content: center;
   align-content: center;
 }
 
-.DiceRoll button {
+.RollDice button {
   align-self: center;
   width: 15em;
   padding: 1.5em;
@@ -25,6 +25,6 @@ body {
   outline: none;
 }
 
-.DiceRoll button:hover {
+.RollDice button:hover {
   background-color: tomato;
 }
